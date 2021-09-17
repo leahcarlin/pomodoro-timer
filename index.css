@@ -13,7 +13,10 @@ html, body {
 }
 
 .container {
-    background-color: lightblue;
+    background: url("tomato.jpg");
+    background-repeat: repeat;
+    background-size: 20%;
+    background-position: center;
     flex-direction: column;
     align-items: center;
     height: 100vh;
@@ -27,19 +30,23 @@ button {
 }
 
 .timer {
-    height: 15em;
+    height: 5em;
     width: 16em;
-    background-color: hotpink;
+    background: rgb(245,73,0, 0.5);
     align-items: center;
     padding: 1em;
 }
 
 .timer p {
     font-size: 100px;
+    color: white;
 }
 
 button {
-    width: 100px;
+    margin-top: 3em;
+    font-size: 1.25em;
+    width: 150px;
+    background: rgb(153,200,106);
     border: none;
     border-radius: 5px;
     padding: 0.25em 0.5em;
@@ -48,7 +55,7 @@ button {
 
 button:hover {
     cursor: pointer;
-    background: lightgray;
+    background: #70A43D;
 }
 
 #info-display {
